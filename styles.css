@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+body {margin:0;}
+.header {
+    background-color: #2d1850;
+
+    height: 12vh;
+}
+
+.links {
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    height: 100%;
+
+}
+
+
+
+.pickup {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color:#a454a1 ;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+.container {
+    height: 30vh;
+    background-color: #2d1850;
+
+}
+.img, .button {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fff;
+    background-color: #5b108b ;
+    padding:25px;
+    border: none;
+    font-size: 20px;
+}
+
+@media all and (max-width:700px){
+    .picture {
+        width:400px;
+        height: 400px;
+    }
+}
